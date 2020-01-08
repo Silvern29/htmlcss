@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>First Page</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Second Page</title>
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link href="site.webmanifest" rel="manifest">
+    <link href="icon.png" rel="apple-touch-icon">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/main.css" rel="stylesheet">
 
-    <meta name="theme-color" content="#fafafa">
+    <meta content="#fafafa" name="theme-color">
 
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -370,38 +370,41 @@
 </head>
 
 <body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
 <main>
 
-    <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-
     <!-- Add your site or application content here -->
-    <h1>Endlich wieder HTML/CSS</h1>
-    <h2>Endlich wieder HTML/CSS</h2>
-    <h3>Endlich wieder HTML/CSS</h3>
-    <div>
-        <a href="second.html">Second Page</a>
-    </div>
-    <div>
-        <img src="./img/885925.jpg" alt="wallpaper" style="width: 50vw; height: auto">
 
+    <div>
+        <a href="index.html">First Page</a>
     </div>
+    
 
 </main>
 
 <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
 </script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 
 </html>
